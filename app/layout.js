@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <head>
         <title>Diego Omar Corrales - CV</title>
       </head>
-      <body className="{inter.className} p-10 w-max m-auto">
+      <body className="{inter.className} p-10">
         <Header />
         
         {children}
